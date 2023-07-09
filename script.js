@@ -82,9 +82,9 @@ console.log(thirdCountry);
 function percentageOfWorld1(population) {
     return (population / 7900000) * 100;
 }
-const chinaPercentage1 = percentageOfWorld1(1441000);
-const iraqPercentage1 = percentageOfWorld1(1220000);
-const ghanaPercentage1 = percentageOfWorld1(2418000);
+const chinaPercentage1 = percentageOfWorld1(1441000000);
+const iraqPercentage1 = percentageOfWorld1(435000000);
+const ghanaPercentage1 = percentageOfWorld1(3283000000);
 console.log(
     `Percentage population of China is ${chinaPercentage1}%,`,
     `Percentage population of Iraq is ${iraqPercentage1}%,`,
@@ -95,9 +95,9 @@ console.log(
 const percentageOfWorld2 = function (population) {
     return (population / 7900000) * 100;
 };
-const chinaPercentage2 = percentageOfWorld2(4340000);
-const iraqPercentage2 = percentageOfWorld2(5000000);
-const ghanaPercentage2 = percentageOfWorld2(870000000);
+const chinaPercentage2 = percentageOfWorld2(1441000000);
+const iraqPercentage2 = percentageOfWorld2(435000000);
+const ghanaPercentage2 = percentageOfWorld2(3283000000);
 console.log(
     `Percentage population of China is ${chinaPercentage2}%,`,
     `Percentage population of Iraq is ${iraqPercentage2}%,`,
@@ -106,9 +106,9 @@ console.log(
 
 
 const percentageOfWorld3 = (population) => (population / 7900000) * 100;
-const chinaPercentage3 = percentageOfWorld1(1441000);
-const iraqPercentage3 = percentageOfWorld1(1220000);
-const ghanaPercentage3 = percentageOfWorld1(2418000);
+const chinaPercentage3 = percentageOfWorld1(1441000000);
+const iraqPercentage3 = percentageOfWorld1(435000000);
+const ghanaPercentage3 = percentageOfWorld1(3283000000);
 console.log(
     `Percentage population of China is ${chinaPercentage3}%,`,
     `Percentage population of Iraq is ${iraqPercentage3}%,`,
